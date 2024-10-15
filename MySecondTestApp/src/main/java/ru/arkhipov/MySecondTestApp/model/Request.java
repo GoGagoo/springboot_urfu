@@ -26,6 +26,10 @@ public class Request {
     @NotBlank
     private String systemTime;
     private String source;
+    private Positions position;
+    private Double salary;
+    private Double bonus;
+    private int workDays;
     @Max(100000)
     @Min(1)
     private int communicationId;
